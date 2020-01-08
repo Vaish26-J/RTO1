@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace RTO1
 {
-    public partial class Form1 : Form
+    public partial class FrontPage : Form
     {
-        public Form1()
+        public FrontPage()
         {
             InitializeComponent();
         }
@@ -56,7 +56,7 @@ namespace RTO1
         private void Signin_button_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 f2 = new Form2();
+            SignUpForm f2 = new SignUpForm();
                 f2.Show();
         }
 

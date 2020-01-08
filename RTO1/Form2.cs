@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace RTO1
 {
-    public partial class Form2 : Form
+    public partial class SignUpForm : Form
     {
-        public Form2()
+        public SignUpForm()
         {
             InitializeComponent();
         }
@@ -26,12 +26,12 @@ namespace RTO1
         private void Button1_Click(object sender, EventArgs e)
         {
            
-            MySqlConnection connect = connection1.GetConnection();
-            MySqlCommand cmdDataBase = new MySqlCommand("insert into vaish.user (fullname,email,phone,age,username,password,roles) values('" + this.fullname_txt.Text + "','" + this.email_txt.Text + "','" + this.phone_txt.Text + "','" + this.age_txt.Text + "','" + this.username_txt.Text + "','" + this.password_txt.Text + "','user');", connect);
+            MySqlConnection dbConnect = connection1.GetConnection();
+            MySqlCommand cmdDataBase = new MySqlCommand("insert into vaish.user (fullname,email,phone,age,username,password,roles) values('" + this.fullname_txt.Text + "','" + this.email_txt.Text + "','" + this.phone_txt.Text + "','" + this.age_txt.Text + "','" + this.username_txt.Text + "','" + this.password_txt.Text + "','user');", dbConnect);
             MySqlDataReader myReader;
             try
             {
-                connect.Open();
+                dbConnect.Open();
                 myReader = cmdDataBase.ExecuteReader();
                 while(myReader.Read())
                 {
@@ -45,9 +45,9 @@ namespace RTO1
                 MessageBox.Show(ex.Message);
             }
 
-            connect.Close();
+            dbConnect.Close();
             this.Hide();
-            Form1 a = new Form1();
+            FrontPage a = new FrontPage();
             a.Show();
         }
 
