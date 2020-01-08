@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RTO1
 {
-    public partial class Form10 : Form
+    public partial class LLappoinments2 : Form
     {
-        public Form10()
+        public LLappoinments2()
         {
             InitializeComponent();
         }
@@ -23,6 +23,11 @@ namespace RTO1
         }
 
         private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form10_Load(object sender, EventArgs e)
         {
 
         }

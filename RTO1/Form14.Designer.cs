@@ -1,6 +1,6 @@
 ﻿namespace RTO1
 {
-    partial class Form14
+    partial class licenserenewform
     {
         /// <summary>
         /// Required designer variable.
@@ -169,6 +169,7 @@
             this.Controls.Add(this.label6);
             this.Name = "Form14";
             this.Text = "Form14";
+            this.Load += new System.EventHandler(this.Form14_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

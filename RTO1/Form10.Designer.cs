@@ -1,6 +1,6 @@
 ﻿namespace RTO1
 {
-    partial class Form10
+    partial class LLappoinments2
     {
         /// <summary>
         /// Required designer variable.
@@ -162,6 +162,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form10";
             this.Text = "Form10";
+            this.Load += new System.EventHandler(this.Form10_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

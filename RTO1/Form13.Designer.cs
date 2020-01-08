@@ -1,6 +1,6 @@
 ﻿namespace RTO1
 {
-    partial class Form13
+    partial class DLappoinments2
     {
         /// <summary>
         /// Required designer variable.
@@ -161,6 +161,7 @@
             this.Name = "Form13";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form13";
+            this.Load += new System.EventHandler(this.Form13_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

@@ -1,6 +1,6 @@
 ﻿namespace RTO1
 {
-    partial class Form15
+    partial class duplicatelicenseform
     {
         /// <summary>
         /// Required designer variable.
@@ -168,6 +168,7 @@
             this.Controls.Add(this.label6);
             this.Name = "Form15";
             this.Text = "Form15";
+            this.Load += new System.EventHandler(this.Form15_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

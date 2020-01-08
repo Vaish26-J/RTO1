@@ -1,6 +1,6 @@
 ﻿namespace RTO1
 {
-    partial class Form8
+    partial class dldetails
     {
         /// <summary>
         /// Required designer variable.

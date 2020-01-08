@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace RTO1
 {
-    public partial class Form15 : Form
+    public partial class duplicatelicenseform : Form
     {
-        public Form15()
+        public duplicatelicenseform()
         {
             InitializeComponent();
+        }
+
+        private void Form15_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

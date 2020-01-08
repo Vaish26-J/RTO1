@@ -1,6 +1,6 @@
 ﻿namespace RTO1
 {
-    partial class Form9
+    partial class LLappoinment
     {
         /// <summary>
         /// Required designer variable.
@@ -35,9 +35,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -115,12 +115,15 @@
             this.panel1.Size = new System.Drawing.Size(685, 426);
             this.panel1.TabIndex = 6;
             // 
-            // textBox2
+            // button1
             // 
-            this.textBox2.Location = new System.Drawing.Point(156, 122);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(363, 22);
-            this.textBox2.TabIndex = 8;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(285, 322);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(85, 33);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "SUBMIT";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker1
             // 
@@ -132,15 +135,12 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 28);
             this.dateTimePicker1.TabIndex = 9;
             // 
-            // button1
+            // textBox2
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(285, 322);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 33);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "SUBMIT";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox2.Location = new System.Drawing.Point(156, 122);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(363, 22);
+            this.textBox2.TabIndex = 8;
             // 
             // label7
             // 
@@ -164,6 +164,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form9";
             this.Text = "Form9";
+            this.Load += new System.EventHandler(this.Form9_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

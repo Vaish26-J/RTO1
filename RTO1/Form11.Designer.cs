@@ -1,6 +1,6 @@
 ﻿namespace RTO1
 {
-    partial class Form11
+    partial class contactform
     {
         /// <summary>
         /// Required designer variable.
@@ -111,6 +111,7 @@
             this.Name = "Form11";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form11";
+            this.Load += new System.EventHandler(this.Form11_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

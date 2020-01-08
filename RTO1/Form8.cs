@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RTO1
 {
-    public partial class Form8 : Form
+    public partial class dldetails : Form
     {
-        public Form8()
+        public dldetails()
         {
             InitializeComponent();
         }

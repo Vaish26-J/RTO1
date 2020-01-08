@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace RTO1
 {
-    public partial class Form13 : Form
+    public partial class DLappoinments2 : Form
     {
-        public Form13()
+        public DLappoinments2()
         {
             InitializeComponent();
+        }
+
+        private void Form13_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
